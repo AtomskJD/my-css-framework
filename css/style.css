@@ -1,0 +1,173 @@
+/*
+	style.css
+	Стиль для Сайта ms-service74.ru
+	dev by AtomskJD 06/12/2013
+
+	надо бы уже и версионность вести
+*/
+
+/*	#Help NOTEs
+	id 		для корневых и уникальных елементов
+	class 	для контента и общих элементов
+
+WEB SAFE FONTS::
+	SERIF fonts
+		Georgia, serif
+		"Times New Roman", Times, serif
+	
+	SANS-SERIF fonts
+		Arial, Helvetica, sans-serif
+		Tahoma, Geneva, sans-serif
+		Verdana, Geneva, sans-serif
+		"Trebuchet MS", Helvetica, sans-serif
+
+	MONOSPACE fonts
+		"Courier New", Courier, monospace
+		"Lucida Console", Monaco, monospace
+*/
+
+/* #Drupal special classes
+	.content 			для контента блоков чтобы не задеть сервис-меню
+	.active-trail 		для активного пункта меню в модуле SuperFish
+	tbody 				border: 0;
+
+*/
+
+/*	#FONTs & COLORs for current project
+
+	#333333 			#header text color;
+	#006599 			links color;
+	#2C2C2C 			main text color;
+	#373737 			headers of main text coor;
+	#656565 			news date color
+	#CBCBCB 			copyright text color
+	rgba(51,51,51,0.5) 	footer text color;
+	rgba(0,101,153,0.5) footer menu text color
+
+	Arial:
+		12-14px 		main text
+		19-20px 		header menu
+		24px 			h2
+*/
+
+/*includes*/
+/*@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Serif&subset=latin,cyrillic);*/
+
+/*main syles*/
+html, body{
+	font-family: 	Tahoma, Geneva, sans-serif;
+	font-size: 		14px;
+	color: 			black;
+	width: 			100%;
+	height: 		100%;
+	background: 	#dbd4cc;
+	z-index: -2;
+	
+}
+html, body, div, a, p, h1, h2, h3, img, ul{
+	margin: 		0;
+	padding: 		0;
+	outline: 		0;
+	vertical-align: baseline;
+}
+h1, h2, h3{
+	font-family: 	Arial, Helvetica, sans-serif;
+	color: 			#9E0000;
+}
+
+a{
+	color: 			#000;
+	font-style: 	normal;
+	text-decoration:underline;
+}
+a:hover{
+	text-decoration: none;
+}
+
+p{
+	
+}
+tbody{
+	border: 		0;
+}
+
+  /*///////////////////////////////////////////
+ //		BASE CLASSES MY CSS FRAMEWORK 		//
+///////////////////////////////////////////*/
+
+/* оборачивает весь контент для корректноко отображения друпал меню*/
+.mega-box{
+	z-index: 		1;
+	position: 		relative;
+	width: 			100%;
+	height: 		100%;
+}
+.wrapper{
+	position: 		relative;
+	z-index: 		5;
+	width: 			960px;
+	margin: 		0 auto;
+}
+.wide-wrapper{
+	background: 	#ECECEC;
+	width: 			100%;
+}
+/* обычно для теней */
+.wrapper-s{
+	width: 			978px;
+	margin: 		0 auto;
+}
+/*разделитель для wrapper*/
+.spacer{
+	height: 15px;
+}
+
+/* внутренний блок для классов wrapper нужен для отступов */
+.box{
+	padding: 15px;
+	overflow: hidden;
+}
+
+/*если блок потерялся*/
+.where{
+	background: #ddd;
+}
+/* обычно br или пустой div*/
+.clearfix{
+	clear: both;
+}
+/* центровка всякой мелочи типа текста и картинок в тумбнейлах*/
+.centered{
+	margin: 0 auto;
+	text-align: center;
+}
+/* depricated */
+.padded{
+	width: 980px;
+	padding: 0 10px;
+}
+/* колонки пиходится переписывать под каждый сайт пока не выберем базовую сетку*/
+.columns{
+	float: left;
+}
+.five{
+	width: 186px;
+}
+/*просто быстрая плавучесть*/
+.float{
+	float: left;
+}
+
+  /*///////////////////////
+ //		ELEMENTS  		//
+///////////////////////*/
+
+#logo{}
+#header{}
+#slider{}
+#primary{}
+#footer{}
+.info-contacts{}
+#header-menu{}
+#footer-menu{}
+
