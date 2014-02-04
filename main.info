@@ -1,0 +1,29 @@
+
+name = Main
+description = Базовый макет
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/maintenance.css
+
+scripts[] 					= js/script.js
+
+regions[header] 			= Шапка
+regions[contacts] 			= Контакты
+regions[cart] 				= Корзина
+regions[left_sidebar]		= Левый сайдбар
+regions[content]			= Содержимое
+regions[trends]				= Новинки
+regions[news] 				= Новости
+regions[footer]				= Подвал
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by drupal.org packaging script on 2013-08-08
+version = "7.23"
+project = "drupal"
+datestamp = "1375928238"
+
