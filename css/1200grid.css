@@ -1,12 +1,13 @@
 /* ABOUT */
-/* addition styles for 980px static layout*/
+/* addition styles for 1200 static layout*/
 .wrapper{
 	position: 		relative;
-	width: 			984px;
+	width: 			1200px;
 	margin: 		0 auto;
 }
 .wide-wrapper{
 	width: 			100%;
+	min-width: 		1200px;
 }
 /* обычно для теней */
 .wrapper-s{
@@ -23,38 +24,38 @@
 	margin:0;
 }
 .one{
-	width: 82px;
+	width: 100px;
 }
 .two{
-	width: 164px;
+	width: 200px;
 }
 .three{
-	width: 246px;
+	width: 300px;
 }
 .four{
-	width: 328px;
+	width: 400px;
 }
 .five{
-	width: 410px;
+	width: 500px;
 }
 .six{
-	width: 492px;
+	width: 600px;
 }
 .seven{
-	width: 574px;
+	width: 700px;
 }
 .eight{
-	width: 656px;
+	width: 800px;
 }
 .nine{
-	width: 738px;
+	width: 900px;
 }
 .ten{
-	width: 820px;
+	width: 1000px;
 }
 .eleven{
-	width: 902px;
+	width: 1100px;
 }
 .twelve{
-	width: 984px;
+	width: 1200px;
 }

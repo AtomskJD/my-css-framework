@@ -1,8 +1,8 @@
 /* ABOUT */
-/* addition styles for 980px static layout*/
+/* addition styles for 960px static layout*/
 .wrapper{
 	position: 		relative;
-	width: 			984px;
+	width: 			960px;
 	margin: 		0 auto;
 }
 .wide-wrapper{
@@ -23,38 +23,38 @@
 	margin:0;
 }
 .one{
-	width: 82px;
+	width: 80px;
 }
 .two{
-	width: 164px;
+	width: 160px;
 }
 .three{
-	width: 246px;
+	width: 240px;
 }
 .four{
-	width: 328px;
+	width: 320px;
 }
 .five{
-	width: 410px;
+	width: 400px;
 }
 .six{
-	width: 492px;
+	width: 480px;
 }
 .seven{
-	width: 574px;
+	width: 560px;
 }
 .eight{
-	width: 656px;
+	width: 640px;
 }
 .nine{
-	width: 738px;
+	width: 720px;
 }
 .ten{
-	width: 820px;
+	width: 800px;
 }
 .eleven{
-	width: 902px;
+	width: 880px;
 }
 .twelve{
-	width: 984px;
+	width: 960px;
 }
