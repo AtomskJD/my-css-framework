@@ -1,12 +1,14 @@
-/*ABOUT*/
-/*	
-	v 0.15
-	style.css
-	Стиль для Сайта *****
-	dev by AtomskJD 04/02/2014
--------------------------------*/
+/** ABOUT
+*
+*	v 1.0
+*	style.css
+*	Стиль для Сайта *****
+*	dev by AtomskJD 28-07-2014
+*
+*/
+	
 
-/*	NOTEs */
+/**	NOTEs */
 /*
 Markup::
 	id 		для корневых и уникальных елементов
@@ -35,9 +37,21 @@ WEB SAFE FONTS::
 -------------------------------------------------*/
 
 /*	INCLUDEs */
-/*@import url(980grid.css);*/
 /*@import url(960grid.css);*/
+/*@import url(980grid.css);*/
+/*@import url(980grid-flex.css);*/
+/*@import url(1200grid.css);*/
+
+/* WEB FONTS */
+/*
+* 	font-family: 'PT Sans', sans-serif;
+*/
 /*@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Serif&subset=latin,cyrillic);*/
+/*
+*	font-family: 'Roboto', sans-serif;
+*/
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic,300,300italic&subset=latin,cyrillic);*/
+
 /*-----------------------------------------------*/
 /* CORE STYLE */
 html, body{

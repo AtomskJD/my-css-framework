@@ -1,11 +1,4 @@
 <?php 
-function show_menu($menu = 'main-menu', $depth = 2){
-	$output = "<!-- Меню сгенерино из " . strtoupper($menu) . " BEGIN -->";
-	$output .= drupal_render(menu_tree_output(menu_tree_all_data($menu, null, $depth)));
-	$output .= "<!-- " .strtoupper($menu). " END -->";
-
-	return $output;
-}
 function the_menu($display = true, $menu = 'main-menu', $depth = 2){
 	$output = "<!-- menu: Меню сгенерино из " . strtoupper($menu) . "; -->";
 	$output .= drupal_render(menu_tree_output(menu_tree_all_data($menu, null, $depth)));

@@ -1,4 +1,4 @@
-<?php var_dump($logo); ?>
+
 <?php print render($page['info_contact']); ?>
 <?php print render($page['main_menu']); ?>
 <?php print render($page['content']); ?>
@@ -12,6 +12,4 @@
 
 <?php if ($tabs) print render($tabs); ?>
 
-<?php var_dump(drupal_is_front_page()); ?>
-&copy;<?php echo date("Y"); ?>
 <?php if($site_name || $site_slogan) echo $site_name . " " . $site_slogan; ?>
